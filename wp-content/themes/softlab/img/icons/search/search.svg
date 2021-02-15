@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" preserveAspectRatio="none">
+<g>
+	<path style="fill:currentColor;" d="M118,20c54,0,98,44,98,98s-44,98-98,98s-98-44-98-98S64,20,118,20 M118,0C52.8,0,0,52.8,0,118s52.8,118,118,118
+		s118-52.8,118-118S183.2,0,118,0L118,0z"/>
+</g>
+<path class="st0" style="fill:none;stroke:currentColor;stroke-width:20;stroke-miterlimit:10;" d="M189,118c0-39.2-31.8-71-71-71"/>
+<line class="st0" style="fill:none;stroke:currentColor;stroke-width:20;stroke-miterlimit:10;" x1="192" y1="192" x2="275" y2="275"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "hosting": {
+  	"site":"c0nnect",
+    "public": "/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
