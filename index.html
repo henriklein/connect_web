@@ -1677,6 +1677,84 @@
 	.vc_custom_1551714991562 {
 		margin-top: 10px !important;
 	}
+	.adapt-logo{
+		left: 0;
+	}
+	.adapt-height{
+		top: 0;
+	}
+	/*// Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 276px) { 
+	.adapt-logo{
+	    height: 35px;
+	    transform: translate(-50%, -50%);
+	    margin: 0;
+	    filter: opacity(0.89);
+	    position: absolute;
+	    /* top: 50%; */
+	    left: 50%;
+	    z-index: 10;
+	    text-align: center;
+	    top: 67px;	
+	}
+	.adapt-height{
+		top: 0;
+	}
+	.adapt-text {
+		width: 100%;
+	 }
+	 #slider-1-slide-1-layer-14{
+	 	width: 800px;
+	 	display: block;
+
+	 }
+	}
+
+	/*// Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) { 
+
+	.adapt-logo{
+		position: absolute;
+	    height: 40px;
+	    top: 50px;
+	    z-index: 10;
+        transform: initial;
+        left: 0;
+	}
+	.adapt-height{
+		top: 0;
+	}
+	 }
+
+	/*// Large devices (desktops, 992px and up)*/
+	@media (min-width: 992px) {
+	.adapt-logo{
+		position: absolute;
+	    height: 40px;
+	    top: 50px;
+	    z-index: 10;
+	    transform: initial;
+	    left: 0;
+	}
+	.adapt-height{
+		top: -70px;
+	}
+	}
+
+	/*// Extra large devices (large desktops, 1200px and up)*/
+	@media (min-width: 1200px) { 
+	.adapt-logo{
+		position: absolute;
+	    height: 40px;
+	    top: 50px;
+	    z-index: 10;
+        left: 0;
+	    transform: initial;
+	}
+	.adapt-height{
+		top: -70px;
+	}
+	}
 	</style><noscript>
 		<style type="text/css">
 		.wpb_animate_when_almost_visible {
@@ -1699,10 +1777,11 @@
 									<div class="wpb_revslider_element wpb_content_element">
 										<!-- START home REVOLUTION SLIDER 6.1.2 -->
 										<p class="rs-p-wp-fix"></p>
+										<img src="wp-content/logo.png" class="adapt-logo">
 										<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
 											<rs-module id="rev_slider_1_1" style="display:none;" data-version="6.1.2">
 												<rs-slides>
-													<rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:-10;r:0;t:notransition;sl:d;">
+													<rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:-10;r:0;t:notransition;sl:d;" class="adapt-height">
 														<img src="wp-content/plugins/revslider/public/assets/assets/transparent.png" title="Home" data-bg="p:50% 0%;c:#ffffff;" data-parallax="off" class="rev-slidebg" data-no-retina>
 														<!--
 -->
@@ -1765,10 +1844,10 @@ c-20-12-39.7-48.3-72-45.2C29.1,0.5,21.6,1.3,15.3,7C3.2,17.7,6,36.7,6.5,39.4z  " 
 														</rs-layer>
 														<!--
 -->
-														<rs-layer id="slider-1-slide-1-layer-14" data-type="text" data-color="#161616" data-rsp_ch="on" data-xy="xo:15px;yo:401px,350px,160px,115px;" data-text="w:normal;s:55,48,38,26;l:72,66,55,34;fw:700;" data-dim="w:445px,445px,327px,227px;" data-frame_0="o:1;tp:600;" data-frame_0_chars="x:105%;o:1;rX:45deg;rY:0deg;rZ:90deg;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:Power4.easeInOut;st:2400;sp:2510;sR:2400;" data-frame_1_mask="u:t;" data-frame_999="o:0;tp:600;st:w;sR:2440;" style="z-index:15;font-family:Poppins;">Socialize with the ones you care about. </rs-layer>
+														<rs-layer id="slider-1-slide-1-layer-14" data-type="text" data-color="#161616" data-rsp_ch="on" data-xy="xo:15px;yo:401px,350px,160px,115px;" data-text="w:normal;s:55,48,38,26;l:72,66,55,34;fw:700;" data-dim="w:445px,445px,327px,227px;" data-frame_0="o:1;tp:600;" data-frame_0_chars="x:105%;o:1;rX:10deg;rY:0deg;rZ:90deg;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:Power4.easeInOut;st:400;sp:1510;sR:0;" data-frame_1_mask="u:t;" data-frame_999="o:0;tp:600;st:w;sR:2440;" style="z-index:15;font-family:Poppins"; class="adapt-text">Socialize with the ones you care about. </rs-layer>
 														<!--
 -->
-														<rs-layer id="slider-1-slide-1-layer-23"  onclick="window.location = '#home'" class="rev-btn" data-type="button" data-color="#161616" data-xy="xo:15px;yo:644px,644px,350px,240px;" data-text="s:18,18,18,16;l:18;fw:600;a:center;" data-rsp_bd="off" data-padding="t:18,18,18,12;r:30,30,30,24;b:18,18,18,12;l:30,30,30,24;" data-border="bos:solid;boc:#5ab47b;bow:1,1,1,1;bor:30px,30px,30px,30px;" data-frame_0="tp:600;" data-frame_1="tp:600;st:4230;sp:1100;sR:4230;" data-frame_999="o:0;tp:600;st:w;sR:3670;" data-frame_hover="c:#fff;bgc:#5ab47b;boc:#5ab47b;bor:30px,30px,30px,30px;bos:solid;bow:1,1,1,1;oX:50;oY:50;sp:400;e:Power0.easeIn;" style="z-index:16;background-color:rgba(0,0,0,0);font-family:Poppins;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Read More </rs-layer>
+														<rs-layer id="slider-1-slide-1-layer-23"  onclick="window.location = '#home'" class="rev-btn" data-type="button" data-color="#161616" data-xy="xo:15px;yo:644px,644px,350px,240px;" data-text="s:18,18,18,16;l:18;fw:600;a:center;" data-rsp_bd="off" data-padding="t:18,18,18,12;r:30,30,30,24;b:18,18,18,12;l:30,30,30,24;" data-border="bos:solid;boc:#5ab47b;bow:1,1,1,1;bor:30px,30px,30px,30px;" data-frame_0="tp:600;" data-frame_1="tp:600;st:3230;sp:1100;sR:4230;" data-frame_999="o:0;tp:600;st:w;sR:3670;" data-frame_hover="c:#fff;bgc:#5ab47b;boc:#5ab47b;bor:30px,30px,30px,30px;bos:solid;bow:1,1,1,1;oX:50;oY:50;sp:400;e:Power0.easeIn;" style="z-index:16;background-color:rgba(0,0,0,0);font-family:Poppins;cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Read More </rs-layer>
 														<!--
 -->
 														<!-- <rs-layer id="slider-1-slide-1-layer-25" data-type="text" data-color="#49e080" data-xy="xo:217px,217px,207px,-377px;yo:660px,660px,365px,363px;" data-text="s:16;l:22;a:inherit;" data-dim="w:41px;h:45px;" data-vbility="t,f,f,f" data-rsp_bd="off" data-frame_0="x:50px;tp:600;" data-frame_1="tp:600;e:Power3.easeOut;st:4840;sp:1100;sR:4840;" data-frame_999="o:0;tp:600;st:w;sR:3060;" style="z-index:17;font-family:Open Sans;"><a href="#" class="fa-apple"></a>
@@ -1943,7 +2022,7 @@ c-20-12-39.7-48.3-72-45.2C29.1,0.5,21.6,1.3,15.3,7C3.2,17.7,6,36.7,6.5,39.4z  " 
 								</div>
 							</div>
 						</div>
-						<div id="extended_6012cf326e399" class="extended-parallax" data-paroller-type="foreground" style="top:32%; left:-32%; filter: opacity(0.1);" data-paroller-direction="horizontal" data-paroller-factor="0.1"><img src="wp-content/uploads/2019/02/letter-a.png" alt="" /></div>
+						<div id="extended_6012cf326e399" class="extended-parallax" data-paroller-type="foreground" style="top:32%; left:-42%; filter: opacity(0.1);" data-paroller-direction="horizontal" data-paroller-factor="0.1"><img src="wp-content/uploads/2019/02/letter-a.png" alt="" /></div>
 					</div>
 					<div class="vc_row wpb_row vc_row-fluid">
 						<div class="wpb_column vc_column_container vc_col-sm-12">
@@ -1984,8 +2063,8 @@ c-20-12-39.7-48.3-72-45.2C29.1,0.5,21.6,1.3,15.3,7C3.2,17.7,6,36.7,6.5,39.4z  " 
 										<div class="vc_general vc_tta vc_tta-tabs vc_tta-o-shape-group vc_tta-tabs-position-top vc_tta-controls-align-left">
 											<div class="vc_tta-tabs-container">
 												<ul class="vc_tta-tabs-list">
-													<li class="vc_tta-tab vc_active" data-vc-tab><a href="#1550218752253-1920d83c-0419" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">general</span></a></li>
-													<li class="vc_tta-tab" data-vc-tab><a href="#1550222424191-128e8ca9-9022" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">induvidual</span></a></li>
+													<li class="vc_tta-tab vc_active" data-vc-tab><a href="#1550218752253-1920d83c-0419" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">General</span></a></li>
+													<li class="vc_tta-tab" data-vc-tab><a href="#1550222424191-128e8ca9-9022" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">Individual</span></a></li>
 												</ul>
 											</div>
 											<div class="vc_tta-panels-container">
@@ -2028,7 +2107,7 @@ c-20-12-39.7-48.3-72-45.2C29.1,0.5,21.6,1.3,15.3,7C3.2,17.7,6,36.7,6.5,39.4z  " 
 													</div>
 													<div class="vc_tta-panel" id="1550222424191-128e8ca9-9022" data-vc-content=".vc_tta-panel-body">
 														<div class="vc_tta-panel-heading">
-															<h4 class="vc_tta-panel-title"><a href="#1550222424191-128e8ca9-9022" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">Business</span></a></h4>
+															<h4 class="vc_tta-panel-title"><a href="#1550222424191-128e8ca9-9022" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">Individual</span></a></h4>
 														</div>
 														<div class="vc_tta-panel-body">
 															<div id=softlab_infobox_6012cf32757e4 class="softlab_module_infobox layout_left alignment_left">
@@ -2629,7 +2708,7 @@ c0.1,0.3,0.3,0.6,0.4,0.9c11.6,24,42.7,32.7,68.6,19C158.9,144,169.9,117.9,161.5,9
 		                                );
 		                                return await res.json();
 		                              };
-		                              MdFetch('@henriklein').then(
+		                              MdFetch('connectapp').then(
 		                                 function(value){
 
 		                                 var todos = value.items;
@@ -2802,7 +2881,7 @@ c14.4-7.4,22.8-15.7,24.8-17.7c7-7.1,16.6-16.8,15.4-29c-0.3-3.1-1.2-5.6-2-7.3c-3.
 c-2.7-6.7-8.7-10.3-10.8-11.8c-9.6-6.7-19.7-6.7-24-6.7C95.2,12.3,84.5,18.3,78.8,23.2z" />
 								</path>
 							</svg></div>
-						<div id="extended_6012cf329dc85" class="extended-parallax" data-paroller-type="foreground" style="top:-5%; left:80%; " data-paroller-direction="horizontal" data-paroller-factor="0.1"><img src="wp-content/uploads/2019/02/letter-q.png" alt="" / style="left:-32%; filter: opacity(0.1);"></div>
+						<div id="extended_6012cf329dc85" class="extended-parallax" data-paroller-type="foreground" style="top:-5%; left:90%; " data-paroller-direction="horizontal" data-paroller-factor="0.1"><img src="wp-content/uploads/2019/02/letter-q.png" alt="" / style="left:-32%; filter: opacity(0.1);"></div>
 						<div id="extended_6012cf329e028" class="morph-svg" style="top:20%; left:-22%; width:110%; height:110%; transform: rotate(-84deg); "><svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="fill:#f7f9fd; " x="0px" y="0px" viewBox="0 0 180 180">
 								<path d="">
 									<animate repeatCount="indefinite" attributeName="d" dur="10s" values="M6.5,39.4C7.9,62.9,6,81.5,3.8,94.8c-2.9,17.7-7.2,30.9,0.4,41.9c5.9,8.5,15.7,11,17.6,11.5
